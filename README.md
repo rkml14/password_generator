@@ -4,11 +4,16 @@
 Created an application that will enable employees to generate random passwords based on criteria that they’ve selected (password length, uppercase, lowercase, numeric & special characters).  This app runs in the browser and features dynamically updated HTML and CSS powered by JavaScript code.  
 
 
-The following image shows the web application's appearance. Once the user 
+The following image shows the web application's appearance. Once the user clicks on the red button "Generate Password", the application will begin.  
 
 ![The Password Generator application displays a red button to "Generate Password".](./assets/03-javascript-homework-demo.png)
 
 >
+
+Gif demonstrating the steps of a successfully created password:
+
+
+![Gif demonstrating the user selection of password length, and confirming which criteria they would like in a password.](./assets/screenshot.gif)
 
 ---
 ## Usage
