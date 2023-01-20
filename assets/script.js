@@ -65,19 +65,19 @@ function generatePassword() {
   let passwordArray = [];
   if (upperCase) {
     password += getRandomChar(upperArray);  // Adds random uppercase character to variable password
-    passwordArray.push(...upperArray);
+    passwordArray.push(...upperArray);  //Pushes each upperArray element into the passwordArray
   }
   if (lowerCase) {
     password += getRandomChar(lowerArray); // Adds random lowercase character to variable password
-    passwordArray.push(...lowerArray);
+    passwordArray.push(...lowerArray); //Pushes each lowerArray element into the passwordArray
   }
   if (numCase) {
     password += getRandomChar(numArray); // Adds random numeriac character to variable password
-    passwordArray.push(...numArray);
+    passwordArray.push(...numArray); //Pushes each numArray element into the passwordArray
   }
   if (charCase) {
     password += getRandomChar(charArray); // Adds random character to variable password
-    passwordArray.push(...charArray);
+    passwordArray.push(...charArray); //Pushes each charArray element into the passwordArray
   }
   while (password.length < passwordLength) {  // While loop runs until password is the specified length from user inputed length and will continue adding random characters to variable password
    password += getRandomChar(passwordArray);  // Add random characters from passwordArray to variable password using getRandomChar function
